@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "../JH_timer/jh_timer.h"
+#include "jh_timer.h"
 
 #define BLOCK_SIZE 16
 
