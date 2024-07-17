@@ -12,8 +12,6 @@
 #define SIZE_N 2048
 #define SIZE_K 1024
 
-template<class T> void allocNinitMem(T** p, long long size, double* memUsage = NULL);
-bool compareMatrix(int* _A, int* _B, int _size);
 __global__ void matMul(int* matA, int* matB, int* matC, int m, int n, int k);
 
 int main(void)
